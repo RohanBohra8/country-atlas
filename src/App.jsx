@@ -8,12 +8,14 @@ import { Contact } from "./pages/Contact";
 import { Country } from "./pages/Country";
 
 import "./App.css"; 
+import { ErrorPage } from "./components/UI/ErrorPage";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
