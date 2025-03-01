@@ -17,7 +17,7 @@ export const Contact = () => {
             name="username"
             className="form-control"
             required
-            autoComplete="false"
+            autoComplete="off"
             placeholder="Enter your name"
           />
           <input
@@ -25,7 +25,7 @@ export const Contact = () => {
             name="email"
             className="form-control"
             required
-            autoComplete="false"
+            autoComplete="off"
             placeholder="Enter your email"
           />
           <textarea
@@ -33,7 +33,7 @@ export const Contact = () => {
             name="message"
             className="form-control"
             required
-            autoComplete="false"
+            autoComplete="off"
             placeholder="Enter your message"
           ></textarea>
 
