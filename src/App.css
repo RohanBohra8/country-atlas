@@ -265,6 +265,7 @@ nav ul {
 .bg-green-box,
 .bg-white-box,
 .bg-yellow-box,
+.bg-orange-box,
 .bg-blue-box {
   position: relative;
 }
@@ -272,6 +273,7 @@ nav ul {
 .bg-green-box::after,
 .bg-white-box::after,
 .bg-yellow-box::after,
+.bg-orange-box::after,
 .bg-blue-box::after {
   position: absolute;
   top: -1px;
@@ -297,6 +299,9 @@ nav ul {
 
 .bg-blue-box::after {
   background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+}
+.bg-orange-box::after {
+  background: linear-gradient(71deg, #0c0a0e, #f16f04, #0c0a0e);
 }
 
 .card-title {
