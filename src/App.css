@@ -8,7 +8,8 @@
 
 
 :root {
-  --bg-color: #202020;
+  /* --bg-color: #202020;  this is original */
+  --bg-color: #DFE8E6; 
   --font-primary: 'Inter', sans-serif;   /* Primary font */
   --font-secondary: 'Poppins', sans-serif;  /* Alternative font */
   --font-heading: 'Roboto', sans-serif; /* Heading font */
@@ -19,8 +20,10 @@ html {
   font-family: var(--font-primary);
 }
 
+
 body {
-  background-color: black;
+  /* background-color: black; */
+  background-color: #DFE8E6;
 }
 
 h1,
@@ -28,7 +31,8 @@ h2,
 h3,
 h4,
 h5 {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
 }
 
 p,
@@ -39,7 +43,8 @@ button {
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
   line-height: 1.6;
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
 }
 
 li {
@@ -48,7 +53,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 
   &:hover {
     color: #2e86c1;
@@ -69,7 +74,7 @@ button {
   border: none;
   text-transform: unset;
   transition: all 0.3s ease-in-out;
-  background: #202020;
+  background: #A0430A;
   color: #fff;
   border-radius: 1.5rem;
   /*thisdoesn'twork*/
@@ -110,7 +115,8 @@ button {
 header {
   height: 10rem;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
-  background-color: #202020;
+  /* background-color: #202020; */
+  background-color: #A0430A;
   width: 100%;
 
   & .container {
@@ -157,7 +163,7 @@ nav ul {
     position: absolute;
     top: 10rem;
     left: 0;
-    background-color: #0d1212;
+    background-color: #A0430A;
     width: 100%;
     box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
   }
@@ -241,7 +247,7 @@ nav ul {
   padding: 0 !important;
   margin-bottom: 40px;
   font-size: 40px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   line-height: 60px;
 }
@@ -256,7 +262,7 @@ nav ul {
 .container-card {
   position: relative;
   border: 2px solid transparent;
-  background: linear-gradient(71deg, #080509, #1a171c, #080509);
+  background: linear-gradient(71deg, #A0430A, #f67b2e, rgb(221, 126, 58));
   background-clip: padding-box;
   border-radius: 45px;
   padding: 40px;
@@ -306,7 +312,7 @@ nav ul {
 
 .card-title {
   font-weight: 600;
-  color: white;
+  color: black;
   letter-spacing: -0.02em;
   line-height: 40px;
   font-style: normal;
@@ -317,7 +323,7 @@ nav ul {
 .card-description {
   font-weight: 600;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.711);
   font-size: 16px;
   max-width: 470px;
 }
@@ -331,7 +337,7 @@ nav ul {
   align-items: center;
 
   & .icon {
-    color: #3a4ed5;
+    color: #fff;
     font-size: 3.6rem;
 
     & .icon:nth-child(2) {
@@ -347,7 +353,7 @@ nav ul {
 
   & p {
     font-size: 1.5rem;
-    color: #757575;
+    color: #fff;
   }
 
   & p:first-child {
@@ -369,21 +375,22 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #A0430A;
   position: relative;
 }
 
 .copyright-area {
-  background: #202020;
+  background: #A0430A;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #fff;
 }
 .copyright-text p a {
-  color: #3a4ed5;
+  color: #000;
+  font-weight: bold;
   margin-left: 0.6rem;
 }
 .footer-menu li {
@@ -395,7 +402,7 @@ ul {
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: #fff;
 }
 
 /* --------------- 
@@ -465,7 +472,7 @@ country Card
   
   & .container-card {
     padding: 0.8rem 2.4rem;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background: linear-gradient(71deg, #A0430A, #A0430A, #A0430A);
   }
 
   & input {
@@ -477,12 +484,11 @@ country Card
     letter-spacing: 0.1rem;
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.8);
-    border: 0.05rem solid #fff;
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background: #A0430A;
   }
 
   & .select-section {
-    background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    background:  #A0430A;
     color: rgba(255, 255, 255, 0.8);
     padding: 0.6rem 2.4rem;
     border-radius: 5rem;
@@ -497,7 +503,7 @@ country Card
     text-transform: capitalize;
 
     & option {
-      background: linear-gradient(71deg, #080509, #1a171c, #080509);
+      background:  #A0430A;
       color: rgba(255, 255, 255, 0.8);
       padding: 0.6rem 2.4rem;
       border-radius: 5rem;
@@ -505,7 +511,7 @@ country Card
   }
 
   & .select-section > option {
-    background-color: #080509;
+    background-color:  #A0430A;
     color: rgba(255, 255, 255, 0.8);
     padding: 0.6rem 2.4rem;
     border-radius: 5rem;
@@ -517,7 +523,7 @@ country Card
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
 }
 
 /* ------------------ 
@@ -528,7 +534,7 @@ contact us page
   margin: 9.6rem auto;
 
   & hr {
-    border-color: rgba(255, 255, 255, 0.6);
+    border-color: black;
   }
 }
 .contact-wrapper {
@@ -539,17 +545,18 @@ contact us page
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
+    border-radius: 10%;
     width: 100%;
     max-width: 48rem;
 
     & input,
     & textarea {
       font-family: "urbanist";
-      background-color: #000;
+      background-color: #DFE8E6;
       font-size: 1.6rem;
-      color: #fff;
+      color: black;
       outline: none;
-      border: 0.1rem solid rgba(255, 255, 255, 0.4);
+      border: 0.2rem solid black;
       padding: 1.2rem 1.6rem;
       border-radius: 0.3rem;
       -webkit-border-radius: 0.3rem;
